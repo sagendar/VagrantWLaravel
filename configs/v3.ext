@@ -1,0 +1,8 @@
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always,issuer:always
+#basicConstraints = critical,CA:true
+basicConstraints = CA:true
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = *.vending.dev

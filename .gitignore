@@ -1,0 +1,10 @@
+/.idea
+/*.log
+/.vagrant
+/configs/certs
+/cache/*
+/downloads/*
+/log/*
+/temp/*
+!.gitkeep
+/vendor
